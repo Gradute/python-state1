@@ -1,0 +1,20 @@
+Git命令：
+  #新建GIT仓库
+  选取仓库并初始化：本地电脑进入文件夹内，右键单机空白区域显示更多选项OPEN GIT bash
+  首次新建仓库后需要GIT init
+
+  #从本地将文件上传到GIT
+  git add xxx.sh
+  git commit -m "描述信息"
+  git log 查看上传日志
+
+  #GIT分支创建、进入、删除与合并
+  git branch a
+  git checkout a
+  git branch -d a
+  git merge b
+
+详情见：https://zhuanlan.zhihu.com/p/369486197
+        https://zhuanlan.zhihu.com/p/463643494  
+
+git可提供代码的备份管理功能，将文件从工作区放入暂存区，最后提交到git仓库即可
