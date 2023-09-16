@@ -1,0 +1,3 @@
+参数用途：四舍五入
+Round(number,k):前一参量为待处理参数，后一位为保留位数
+具体保留规则见【详解python中的round()函数 -  CSDN App】http://t.csdn.cn/1Ou9q
