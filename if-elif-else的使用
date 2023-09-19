@@ -1,3 +1,5 @@
 一、条件语句命令语句空四格
 二、if-else-elif重要依次递减，可依次不加
 三、else可不加条件命令
+编程实例见http://localhost:8888/tree （jupyter notebook--python if语句）
+讲解见mooc：https://www.icourse163.org/learn/NJU-1001571005?tid=1470971444#/learn/content?type=detail&id=1255175843&cid=1286906466
