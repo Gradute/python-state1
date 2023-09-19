@@ -1,0 +1,9 @@
+一、生成一个随机数：random
+    指定范围的浮点数：random.uniform(a,b)
+    指定范围的整数：random.randint(a,b)
+    剪切列表片段、随机选择等见：https://zhuanlan.zhihu.com/p/98298060
+二、生成一个有序数列：range(起始值,终了值,步长)
+    省略初始：从零开始
+    省略间隔：步长为1
+    end：无法取到
+    range（k）：取k个数，从0-（k-1）
