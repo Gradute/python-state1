@@ -1,0 +1,5 @@
+while条件，空四格：while是条件语句if的增强，满足条件时一直执行到不满足为止
+for range次数，空四格：for i in range(k)定义的是循环k数。一个是数，一个是条件。
+终止循环break；当循环中出现想要的情况想要中途终止时，可采用if 理想条件：break终止。
+讲解：https://www.icourse163.org/learn/NJU-1001571005?tid=1470971444#/learn/content?type=detail&id=1255175843&cid=1286906466
+编程练习：http://localhost:8888/notebooks/python-while-for%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5.ipynb
