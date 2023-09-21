@@ -1,20 +1,32 @@
-Git命令：
-  #新建GIT仓库
-  选取仓库并初始化：本地电脑进入文件夹内，右键单机空白区域显示更多选项OPEN GIT bash
-  首次新建仓库后需要GIT init
-
-  #从本地将文件上传到GIT
-  git add xxx.sh
+本地：四步
+  #新建GIT仓库,并commit文件
+  把目标文件放到文件夹中，右键单机空白区域显示更多选项OPEN GIT bash Here
+  GIT init
+  git add xxx.sh(git add .就是文件夹内全部上传）
   git commit -m "描述信息"
   git log 查看上传日志
 
-  #GIT分支创建、进入、删除与合并
+GitHub端：
+  #复制仓库地址
+  仓库的code，copy
+
+两端连接并传输：
+  remote add origin：git remote origin 仓库地址（http://xxx.git)
+  push origin: git push origin master
+
+push之后会显示输入密码，我们选择使用password不用browse，然后粘贴即可
+以上方法详情见：https://blog.csdn.net/qq_39588003/article/details/115670602
+
+如果显示fatal: unable to access 'https://github.com/Gradute/python-state1.git/': Recv failure: Connection was reset
+输入以下命令，然后重新push即可：
+git config --global --unset https.proxy//取消https代理 
+
+  
+详情见：https://zhuanlan.zhihu.com/p/369486197
+        https://zhuanlan.zhihu.com/p/463643494  
+
+#GIT分支创建、进入、删除与合并
   git branch a
   git checkout a
   git branch -d a
   git merge b
-
-详情见：https://zhuanlan.zhihu.com/p/369486197
-        https://zhuanlan.zhihu.com/p/463643494  
-
-git可提供代码的备份管理功能，将文件从工作区放入暂存区，最后提交到git仓库即可
