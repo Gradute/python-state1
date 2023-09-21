@@ -1,0 +1,4 @@
+1、（）内参数可以嵌套函数
+2、封装函数的第一行写备注，''。调用方法为fnc.__doc__，即函数名后接doc，注意是一边两个下划线。
+    应用实例见：http://localhost:8888/notebooks/python%E7%AC%AC%E4%BA%8C%E5%91%A8%E7%BB%83%E4%B9%A0%E9%A2%98.ipynb
+3、函数返回值既可以：（1)return一个数字或者字符，return之后函数立刻结束，不可以两次return。(2)也可以print来结束函数。
