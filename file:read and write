@@ -1,0 +1,20 @@
+一、文件的读写都是从指针开始，
+  读写一次，指针下移一行  
+  规定指针位置用f.seek(n,whence=0/1/2)。其中whence可以取012，0表示从开头开始取，1表示从当前位置开始取，2表示从文件末尾开始取，n表示指针向后移动n各单位
+
+二、面向文件的读取和写入
+  1、先打开文件：with open(r'','r\w\a') as f:  打开文件后面接r代编读取文件，w代表清空文件重新写入，a+代表从文件末尾继续写入
+  2、文件的读取：
+      f.read(k)\：全部文件读取(读取k个字符串）返回字符串
+      f.readline()\：一次读取一行。与while搭配使用。
+                        line = f.readline()
+                        while line:
+                            print("行内容：", line)
+                            line = f.readline()
+      f.readlines()：，读取全部文件并返回一个列表便于后续循环遍历
+                        list=f.readlines()
+                        for i in range(len(list)):
+                            print(list[i])
+  3、文件写入：
+      f.write()\f.writelines：写入一个字符串、写入列表（同上，可以循环写入）
+  
