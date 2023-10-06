@@ -1,0 +1,35 @@
+一、字符串处理
+  字符串函数
+    查找str.find('string')，返回目标字符串的起始位置
+    替换str.replace('a','b')
+    分隔str.split(',')，逗号为分隔符，分割为列表
+    合并' '.join(list)，将列表中的字符串连接起来，并用空格连接
+  字符串的格式化输出'str{}str'.format()
+    {n：<5d}整数占五列输出，左对齐<
+    {n：>5s}字符串占五列，右对齐
+    {n：^5.3f}浮点数保留三位小数整体数字占五列，中间对齐
+    n表示format括号内索引的字符顺序
+
+二、列表
+  列表函数
+    排序
+      顺序从小到大list.sort()
+      逆序从大到小list.sort(reserve=ture)
+      按照字符串长度list.sort(key=len)
+    删除
+      索引号删除list.pop(n)
+      元素删除list.remove(iterm)
+      切片n1到n2连续删除del list[n1:n1]
+    增加
+      直接加不改格式list.append
+      列表专用list.expend
+  新建列表
+    空列表list=[]
+    解析数字列表[x*2 for x in rang(i) if x condition  ]
+三、元组
+      tuple=()
+四、循环遍历
+  数字遍历：for i in range(k):
+  字符串遍历：for c in string:
+  列表遍历：for iterm in list:
+  列表序列号，元素都遍历：for i,j in enumerate(list):
